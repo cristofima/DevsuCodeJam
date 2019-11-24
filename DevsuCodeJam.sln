@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevsuCodeJam.Exercises", "DevsuCodeJam.Exercises\DevsuCodeJam.Exercises.csproj", "{560D010A-014F-459B-89BD-1CF5FA701D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevsuCodeJam.Tests", "DevsuCodeJam.Tests\DevsuCodeJam.Tests.csproj", "{20E165C3-2C90-4584-8DBC-784F7BCB7419}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{560D010A-014F-459B-89BD-1CF5FA701D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560D010A-014F-459B-89BD-1CF5FA701D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560D010A-014F-459B-89BD-1CF5FA701D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560D010A-014F-459B-89BD-1CF5FA701D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E165C3-2C90-4584-8DBC-784F7BCB7419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E165C3-2C90-4584-8DBC-784F7BCB7419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E165C3-2C90-4584-8DBC-784F7BCB7419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E165C3-2C90-4584-8DBC-784F7BCB7419}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C8AC172-7B50-4EE1-998C-F3B4122B4471}
+	EndGlobalSection
+EndGlobal
