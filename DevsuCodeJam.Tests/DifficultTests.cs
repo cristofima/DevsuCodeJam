@@ -37,5 +37,16 @@ namespace DevsuCodeJam.Tests
 
             Assert.Equal(resultExpected, result);
         }
+
+        [Theory]
+        [InlineData(3, 3421)]
+        [InlineData(7, 5763)]
+        [InlineData(-1, 2222)]
+        public void Exercise03_Test(int resultExpected, int input)
+        {
+            var result = Exercise03.KaprekarConstant(input);
+
+            Assert.Equal(resultExpected, result);
+        }
     }
 }

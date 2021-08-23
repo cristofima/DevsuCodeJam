@@ -43,5 +43,18 @@ namespace DevsuCodeJam.Tests
 
             Assert.Equal(result, resultExpected);
         }
+
+        [Theory]
+        [InlineData("(-_(-_(-_-)_-)", 4)]
+        [InlineData("(-(-_(-_-(-_(-_(-_-)_-)_-)-_-)_-)-)", 11)]
+        [InlineData("(-(-_-(-_(-_(-_-(-_(-_(-_-)_-)_-)-_-)_-)_-)-)", 14)]
+        [InlineData("(O_o)", -8)]
+        [InlineData("(O_o)", 300)]
+        public void Exercise03_Test(string resultExpected, int input)
+        {
+            var result = Exercise03.EerieMob(input);
+
+            Assert.Equal(resultExpected, result);
+        }
     }
 }
