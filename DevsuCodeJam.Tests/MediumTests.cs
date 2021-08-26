@@ -56,5 +56,31 @@ namespace DevsuCodeJam.Tests
 
             Assert.Equal(resultExpected, result);
         }
+
+        [Theory]
+        [InlineData(1, 0, 0)]
+        [InlineData(1, 1, 1)]
+        [InlineData(2, 2, 1)]
+        [InlineData(15, 6, 4)]
+        [InlineData(-1, 3, 10)]
+        public void Exercise04_Test(int resultExpected, int x, int y)
+        {
+            var result = Exercise04.PascalTriangle(x, y);
+
+            Assert.Equal(resultExpected, result);
+        }
+
+        [Theory]
+        [InlineData(13, "gamer programming")]
+        [InlineData(5, "hello")]
+        [InlineData(9, "Artificial")]
+        [InlineData(0, "")]
+        [InlineData(0, null)]
+        public void Exercise05_Test(int resultExpected, string text)
+        {
+            var result = Exercise05.DistinctCharacters(text);
+
+            Assert.Equal(resultExpected, result);
+        }
     }
 }
